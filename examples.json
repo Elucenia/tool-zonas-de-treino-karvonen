@@ -1,0 +1,63 @@
+[
+  {
+    "label": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+    "input": {
+      "idade": 40,
+      "fcrep": 60
+    },
+    "expected": {
+      "raw": {
+        "fcmax": 180,
+        "reserva": 120,
+        "mod_min": 108,
+        "mod_max": 130.8,
+        "vig_min": 132,
+        "vig_max": 166.8
+      },
+      "level": "info"
+    },
+    "originalInput": {
+      "idade": 40,
+      "fcrep": 60
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+    "input": {
+      "idade": 30,
+      "fcrep": 70,
+      "fcmax": 190
+    },
+    "expected": {
+      "raw": {
+        "fcmax": 190,
+        "mod_min": 118,
+        "vig_min": 142
+      }
+    },
+    "originalInput": {
+      "idade": 30,
+      "fcrep": 70,
+      "fcmax": 190
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "FC de repouso maior que a máxima medida: erro",
+    "input": {
+      "idade": 50,
+      "fcrep": 110,
+      "fcmax": 100
+    },
+    "expected": {
+      "error": true
+    },
+    "originalInput": {
+      "idade": 50,
+      "fcrep": 110,
+      "fcmax": 100
+    },
+    "expandedZeroOptions": []
+  }
+]

@@ -1,0 +1,181 @@
+{
+  "tool": {
+    "id": "zonas-de-treino-karvonen",
+    "title": "Zonas de treino pela FC de reserva (Karvonen)",
+    "short": "Frequência cardíaca-alvo pelo método de Karvonen",
+    "desc": "Calcule as zonas de treino pela frequência cardíaca de reserva (Karvonen), com FC máxima medida ou estimada por Tanaka e as intensidades do ACSM.",
+    "lead": "Transforma a porcentagem de intensidade em frequência cardíaca-alvo usando a FC de reserva (máxima − repouso), que acompanha melhor o consumo de oxigênio do que a porcentagem da FC máxima.",
+    "spec": [
+      "medicina-esportiva",
+      "cardiologia",
+      "medicina-fisica-e-reabilitacao",
+      "medicina-de-familia-e-comunidade"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "idade",
+        "Idade",
+        "num",
+        {
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "anos",
+          "ph": "40"
+        }
+      ],
+      [
+        "fcrep",
+        "FC de repouso (ao acordar)",
+        "num",
+        {
+          "min": 30,
+          "max": 120,
+          "step": 1,
+          "unit": "bpm",
+          "ph": "60"
+        }
+      ],
+      [
+        "fcmax",
+        "FC máxima medida em teste (se houver)",
+        "num",
+        {
+          "min": 100,
+          "max": 230,
+          "step": 1,
+          "unit": "bpm",
+          "ph": "185",
+          "opt": true
+        }
+      ]
+    ],
+    "formula": "<p><strong>FC-alvo</strong> = FC de repouso + % de intensidade × (FC máxima − FC de repouso).</p><p>Sem teste, a FC máxima é estimada pela equação de <strong>Tanaka</strong>: 208 − 0,7 × idade.</p>",
+    "table": [
+      [
+        "Intensidade (ACSM)",
+        "% da FC de reserva"
+      ],
+      [
+        "Muito leve",
+        "&lt; 30%"
+      ],
+      [
+        "Leve",
+        "30 a 39%"
+      ],
+      [
+        "Moderada",
+        "40 a 59%"
+      ],
+      [
+        "Vigorosa",
+        "60 a 89%"
+      ],
+      [
+        "Próxima da máxima",
+        "≥ 90%"
+      ]
+    ],
+    "tips": [
+      "A FC máxima estimada tem desvio-padrão de cerca de 10 bpm: se houver teste ergométrico ou cardiopulmonar, use a FC máxima medida.",
+      "Com <strong>betabloqueador</strong>, as fórmulas por idade não valem; use a FC do teste feito com a medicação ou a escala de percepção de esforço (Borg).",
+      "Meça a FC de repouso pela manhã, deitado, antes de levantar, e use a média de alguns dias.",
+      "Para a avaliação da FC atingida no teste ergométrico, veja a frequência cardíaca máxima.",
+      "O ACSM recomenda 150 minutos por semana de intensidade moderada ou 75 de vigorosa para adultos saudáveis."
+    ],
+    "sources": [
+      [
+        "Karvonen MJ, Kentala E, Mustala O. The effects of training on heart rate: a longitudinal study. Ann Med Exp Biol Fenn, 1957.",
+        "https://pubmed.ncbi.nlm.nih.gov/13470504/"
+      ],
+      [
+        "Tanaka H, Monahan KD, Seals DR. Age-predicted maximal heart rate revisited. J Am Coll Cardiol, 2001.",
+        "https://doi.org/10.1016/S0735-1097(00)01054-8"
+      ],
+      [
+        "Garber CE et al. Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults. Med Sci Sports Exerc, 2011.",
+        "https://doi.org/10.1249/MSS.0b013e318213fefb"
+      ]
+    ],
+    "cases": [
+      [
+        "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        {
+          "idade": 40,
+          "fcrep": 60
+        },
+        {
+          "raw": {
+            "fcmax": 180,
+            "reserva": 120,
+            "mod_min": 108,
+            "mod_max": 130.8,
+            "vig_min": 132,
+            "vig_max": 166.8
+          },
+          "level": "info"
+        }
+      ],
+      [
+        "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        {
+          "idade": 30,
+          "fcrep": 70,
+          "fcmax": 190
+        },
+        {
+          "raw": {
+            "fcmax": 190,
+            "mod_min": 118,
+            "vig_min": 142
+          }
+        }
+      ],
+      [
+        "FC de repouso maior que a máxima medida: erro",
+        {
+          "idade": 50,
+          "fcrep": 110,
+          "fcmax": 100
+        },
+        {
+          "error": true
+        }
+      ]
+    ],
+    "batch": "cirurgia-sentidos",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "cirurgia-sentidos",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/cirurgia-sentidos.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/cirurgia-sentidos.php",
+    "sha256": "21fc91a9a8187a66496f68c2ac8fbdd20a65ceeea519687c963b857f72640866",
+    "bytes": 89063
+  },
+  "clinicalValidation": "not-performed"
+}
