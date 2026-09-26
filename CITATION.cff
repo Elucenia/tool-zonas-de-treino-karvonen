@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Se usar este pacote em pesquisa, palestra ou produto, cite-o como abaixo."
+title: "tool-zonas-de-treino-karvonen: Zonas de treino pela FC de reserva (Karvonen) (Elucenia)"
+abstract: "Código de integração, sem dependências, que reproduz a fórmula ou escore Zonas de treino pela FC de reserva (Karvonen) para navegador e Node.js, com casos de referência e testes. Reprodução técnica; sem validação clínica independente."
+type: software
+version: 0.1.0
+date-released: 2026-09-26
+license: Apache-2.0
+repository-code: "https://github.com/Elucenia/tool-zonas-de-treino-karvonen"
+url: "https://elucenia.org"
+authors:
+  - family-names: Guedes
+    given-names: Felipe
+    website: "https://fgxdev.com"
+    email: contato@elucenia.org
+    city: Toledo
+    region: Paraná
+    country: BR
+  - name: Elucenia
+    website: "https://elucenia.org"
+keywords:
+  - elucenia
+  - medical calculator
+  - clinical score
+  - zonas-de-treino-karvonen

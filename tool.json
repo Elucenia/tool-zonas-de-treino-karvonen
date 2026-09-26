@@ -145,13 +145,9 @@
         }
       ]
     ],
-    "batch": "cirurgia-sentidos",
     "kind": "Calculadora",
     "config": null,
-    "areaId": "cirurgia-sentidos",
     "clinicalReview": "pending",
-    "sourceReview": "pending",
-    "sourceFile": "app/content/ferramentas/cirurgia-sentidos.php",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -171,11 +167,6 @@
     "status": "needs-review",
     "reason": "Revisão documental e clínica independente pendente.",
     "clinicalValidation": "not-performed"
-  },
-  "sourceFile": {
-    "path": "app/content/ferramentas/cirurgia-sentidos.php",
-    "sha256": "21fc91a9a8187a66496f68c2ac8fbdd20a65ceeea519687c963b857f72640866",
-    "bytes": 89063
   },
   "clinicalValidation": "not-performed"
 }

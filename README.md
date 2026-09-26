@@ -1,14 +1,13 @@
 # Zonas de treino pela FC de reserva (Karvonen)
 
-Identificador: `zonas-de-treino-karvonen`. Pacote independente da interface ELUCENIA, para navegador e Node.js.
+Identificador: `zonas-de-treino-karvonen`. Pacote independente da plataforma Elucenia, para navegador e Node.js.
 
 ## Situação
 
 - Revisão: **needs-review**. Revisão documental e clínica independente pendente.
 - Execução: **disponível para reprodução técnica da fórmula**.
 - Validação clínica independente: **não realizada**. Os testes abaixo verificam aritmética e transporte dos campos.
-- Fonte importada: Panorama Médico; arquivo `app/content/ferramentas/cirurgia-sentidos.php`.
-- 3/3 casos de referência conferidos na importação. 0 casos independentes desta ferramenta.
+- 3 casos de referência em `examples.json`, conferidos por `test.cjs`. Verificação aritmética independente da fórmula (reimplementação a partir da literatura, entradas aleatórias): **realizada em 2026-09-25**, 240 comparações conformes.
 - Dados: o exemplo funciona localmente, sem rede, armazenamento ou identificação de pacientes.
 
 ## Uso no Node.js
@@ -49,10 +48,15 @@ Confirme população, exclusões, unidades, versão e diretriz aplicável ao pa�
 
 `examples.json` preserva `originalInput`, expectativa e entrada explícita do exemplo. Não foi necessário expandir opções zero nos exemplos.
 
-## Direitos e repositório
+## O que esta ferramenta não faz
 
-Este pacote integra o acervo privado de desenvolvimento da ELUCENIA. A publicação externa depende de liberação expressa. A licença MIT (arquivo LICENSE) cobre o código de integração, preservando o aviso de autoria e a licença; não transfere direitos sobre instrumentos, traduções, questionários, artigos, marcas ou outros materiais de terceiros. Consulte NOTICE.md e as condições de cada titular. O acesso a este adaptador não publica nem licencia automaticamente o restante da plataforma ELUCENIA.
+- Não diagnostica, não prescreve e não substitui a avaliação de um médico. O resultado é a reprodução técnica de uma fórmula ou escore publicado.
+- Não envia dados a lugar nenhum: roda no navegador ou no Node.js, sem rede, sem telemetria, sem armazenamento.
+- Não guarda nem identifica pacientes. Não use com dados identificáveis fora de um ambiente que você controla.
+- Não tem validação clínica independente nem aprovação regulatória (ver "Situação").
 
-## Acesso ao repositório
+## Autoria e licença
 
-Repositório privado da organização ELUCENIA. A abertura pública depende de liberação expressa.
+Criado e mantido por **Felipe Guedes** (Engenheiro de Software e Arquiteto de Sistemas, Toledo, Paraná, Brasil) para a **Elucenia**, uma cadeia médica e científica global para acelerar a descoberta. Criado em 2026-09-26 na organização [github.com/Elucenia](https://github.com/Elucenia).
+
+Licença **Apache-2.0** (arquivo `LICENSE`): você pode usar, copiar, modificar e embutir este código no seu site ou sistema, inclusive comercial, desde que mantenha o arquivo `NOTICE` e o aviso de copyright e declare as modificações. A licença cobre o código deste pacote; instrumentos, questionários, tabelas, traduções e marcas citados nas fontes mantêm os direitos dos seus titulares (ver `NOTICE`). Detalhes em `AUTHORSHIP.md`, `CITATION.cff`, `SECURITY.md` e `CONTRIBUTING.md`. Contato: contato@elucenia.org.
