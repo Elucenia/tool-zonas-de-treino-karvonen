@@ -14,11 +14,11 @@ Nunca inclua dados reais de pacientes, nem "anonimizados". Nenhuma dependência 
 
 Ao enviar um pull request você certifica o Developer Certificate of Origin (developercertificate.org): a contribuição é sua para dar e você concorda que ela é publicada sob a licença Apache-2.0 deste projeto. Adicione `Signed-off-by: Seu Nome <email>` aos commits.
 
-Você mantém o copyright da sua contribuição e concede a Elucenia · Felipe Guedes o direito perpétuo, irrevogável e mundial de distribuí-la como parte deste pacote sob a Apache-2.0 e, somente como parte deste pacote, sob licença comercial separada.
+Você mantém o copyright da sua contribuição e concede a ELUCENIA · Felipe Guedes o direito perpétuo, irrevogável e mundial de distribuí-la como parte deste pacote sob a Apache-2.0 e, somente como parte deste pacote, sob licença comercial separada.
 
 ## Atribuição
 
-Criado e mantido por Felipe Guedes para a Elucenia. Forks e derivados devem manter o copyright, o `NOTICE` e a `LICENSE`. Uma menção "baseado em tool-zonas-de-treino-karvonen de Elucenia · Felipe Guedes" é bem-vinda.
+Criado e mantido por Felipe Guedes para a ELUCENIA. Forks e derivados devem manter o copyright, o `NOTICE` e a `LICENSE`. Uma menção "baseado em tool-zonas-de-treino-karvonen de ELUCENIA · Felipe Guedes" é bem-vinda.
 
 ## Issues
 

@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-zonas-de-treino-karvonen",
   "version": "0.1.0",
-  "description": "Zonas de treino pela FC de reserva (Karvonen) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Zonas de treino pela FC de reserva (Karvonen) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",

@@ -8,7 +8,7 @@ Este documento diz quem criou este pacote, como a autoria é comprovada e o que 
 |---|---|
 | Nome | tool-zonas-de-treino-karvonen (Zonas de treino pela FC de reserva (Karvonen)) |
 | Tipo | Software: código de integração de fórmula ou escore clínico (JavaScript para navegador e Node.js) e sua documentação |
-| Titular do copyright | Elucenia · Felipe Guedes |
+| Titular do copyright | ELUCENIA · Felipe Guedes |
 | Autor | Felipe Guedes, Engenheiro de Software e Arquiteto de Sistemas, Toledo, Paraná, Brasil |
 | Contato | contato@elucenia.org · https://fgxdev.com · https://elucenia.org |
 | Repositório canônico | https://github.com/Elucenia/tool-zonas-de-treino-karvonen |
@@ -39,11 +39,11 @@ Apache-2.0, em palavras simples:
 | Copiar, modificar, embutir em código fechado | Sim | Mantenha `NOTICE` e o copyright; marque o que modificou. |
 | Distribuir, com ou sem modificação | Sim | Inclua a licença e o `NOTICE`. |
 | Tirar o nome do autor, republicar como seu ou trocar a licença | Não | Nunca. É violação de licença e de direito autoral. |
-| Usar o nome "Elucenia" ou a marca como se fosse o original | Não | Diga "baseado em tool-zonas-de-treino-karvonen de Elucenia · Felipe Guedes". |
+| Usar o nome "ELUCENIA" ou a marca como se fosse o original | Não | Diga "baseado em tool-zonas-de-treino-karvonen de ELUCENIA · Felipe Guedes". |
 | Usar o resultado como decisão clínica sem avaliação médica | Não | O pacote é reprodução técnica de fórmula; não tem validação clínica independente. |
 
 ## 4. Se encontrar uma cópia que viola isto
 
 Cópia sem os avisos, com outro autor ou outra licença: escreva para contato@elucenia.org com o link. O titular pode pedir remoção ao GitHub, ao npm e a outros hosts pelo procedimento de copyright (DMCA), com as provas da parte 2.
 
-Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Esta declaração pode ser copiada junto com o software.
+Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Esta declaração pode ser copiada junto com o software.
