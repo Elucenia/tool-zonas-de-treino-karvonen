@@ -5,13 +5,13 @@
     "short": "Frequência cardíaca-alvo pelo método de Karvonen",
     "desc": "Calcule as zonas de treino pela frequência cardíaca de reserva (Karvonen), com FC máxima medida ou estimada por Tanaka e as intensidades do ACSM.",
     "lead": "Transforma a porcentagem de intensidade em frequência cardíaca-alvo usando a FC de reserva (máxima − repouso), que acompanha melhor o consumo de oxigênio do que a porcentagem da FC máxima.",
+    "kind": "Calculadora",
     "spec": [
       "medicina-esportiva",
       "cardiologia",
       "medicina-fisica-e-reabilitacao",
       "medicina-de-familia-e-comunidade"
     ],
-    "tier": 1,
     "fields": [
       [
         "idade",
@@ -52,39 +52,6 @@
       ]
     ],
     "formula": "<p><strong>FC-alvo</strong> = FC de repouso + % de intensidade × (FC máxima − FC de repouso).</p><p>Sem teste, a FC máxima é estimada pela equação de <strong>Tanaka</strong>: 208 − 0,7 × idade.</p>",
-    "table": [
-      [
-        "Intensidade (ACSM)",
-        "% da FC de reserva"
-      ],
-      [
-        "Muito leve",
-        "&lt; 30%"
-      ],
-      [
-        "Leve",
-        "30 a 39%"
-      ],
-      [
-        "Moderada",
-        "40 a 59%"
-      ],
-      [
-        "Vigorosa",
-        "60 a 89%"
-      ],
-      [
-        "Próxima da máxima",
-        "≥ 90%"
-      ]
-    ],
-    "tips": [
-      "A FC máxima estimada tem desvio-padrão de cerca de 10 bpm: se houver teste ergométrico ou cardiopulmonar, use a FC máxima medida.",
-      "Com <strong>betabloqueador</strong>, as fórmulas por idade não valem; use a FC do teste feito com a medicação ou a escala de percepção de esforço (Borg).",
-      "Meça a FC de repouso pela manhã, deitado, antes de levantar, e use a média de alguns dias.",
-      "Para a avaliação da FC atingida no teste ergométrico, veja a frequência cardíaca máxima.",
-      "O ACSM recomenda 150 minutos por semana de intensidade moderada ou 75 de vigorosa para adultos saudáveis."
-    ],
     "sources": [
       [
         "Karvonen MJ, Kentala E, Mustala O. The effects of training on heart rate: a longitudinal study. Ann Med Exp Biol Fenn, 1957.",
@@ -145,9 +112,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -156,17 +120,530 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T16:44:15.359Z",
+      "total": 205,
+      "passed": 205,
+      "sourceRowCount": 205,
+      "uniqueApiInputCount": 205,
+      "sourceContextCount": 205,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "e8da9067300818e77b91747deebd10c47c4df03f7532ac894e23bce1a070b781",
+        "total": 205,
+        "bankRowCount": 205,
+        "uniqueApiInputCount": 205,
+        "sourceContextCount": 205,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/seven-limited-source-independent-expectations-final26.json",
+            "sha256": "4b960d8c215321b3f059726a3b7bc6b35f0fe4d63a7ee845fbc6edb535a4f0cc"
+          },
+          {
+            "file": "reports/review-20261003/three-limited-source-expectations-final23.json",
+            "sha256": "77dd54945e893d2ec34288cfcccaad3bd6208515cd255912b98c0e2de48a30e3"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+          "sha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80"
+        },
+        "packagingRequirement": "Copy this V2 strictly scoped complete bank only into fresh frozen26 packages after independent peer; V1 and prior25 archives remain unchanged."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "audit": {
+          "file": "reports/review-20261003/seven-limited-source-input-identity-final26.json",
+          "sha256": "e184ba55d7cd2c90120c495d3143d067bd5d72ae98b914f22a75fb943e510d94"
+        },
+        "sourceRows": 205,
+        "uniqueApiInputs": 205,
+        "duplicateRows": 0
+      },
+      "scope": "Tanaka2001 pooled predicted HRmax208−0.7×age component for synthetic ages18–81. Twelve optional measured-HRmax preservation cases and one negative-reserve local rejection are separate implementation contracts, not Tanaka validation. Karvonen exercise zones, percentage thresholds, safety and individual measured/predicted accuracy excluded.",
+      "sources": [
+        {
+          "id": "zonas-de-treino-karvonen",
+          "edition": "Tanaka/Monahan/Seals2001, JACC37:153–156, PMID11153730",
+          "url": "https://webs.um.es/jlyuste/documts/tanaka.pdf",
+          "pdf": "limited-primary-tanaka2001-final23.pdf",
+          "pdfSha256": "7eb5d1275df59fb9a56b3ea9e2009212e383540857bb8935fc98fc63fae72ba4",
+          "access": "Direct PubMed opening returned HHS footer; original abstract found via indexed primary search. Original JACC paper PDF hosted by university retrieved; printed153–156 rendered and selected abstract, population, pooled regression and applicability sections visually read.",
+          "readScope": "Only pooled predicted HRmax208−0.7×age, healthy adults; laboratory514subjects18–81, BMI<35, nonsmoking and without medication except postmenopausal hormone replacement. Study warns individual variation and excludes overt cardiovascular disease/smokers.",
+          "formula": "predicted HRmax=208-0.7*age",
+          "notReviewed": [
+            "Karvonen1957 original full text",
+            "ACSM percentage-zone thresholds or exercise safety",
+            "Patient-specific medication/disease applicability",
+            "Measured HRmax clinical accuracy; only local branch preservation tested"
+          ]
+        }
+      ],
+      "evidencePath": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+      "evidenceSha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80",
+      "originalEvidence": {
+        "file": "reports/review-20261003/three-limited-source-oracles-final23.json",
+        "sha256": "b5a0c3a3822f0195aff892cd543332097c5b8a7ecd108774719038a91d98392f"
+      },
+      "independentPeer": {
+        "status": "passed",
+        "requiredScope": "Metadata/helper/source-component peer before root application; no clinical approval inferred.",
+        "recordedAt": "2026-10-04T18:58:14.733Z",
+        "scope": "Existing independent technical complete-bank/metadata/helper peer recorded after guarded source26 application. This status does not certify clinical eligibility, full instrument conformance, professional translation or source rights; no new arithmetic/browser execution is claimed by this metadata amendment.",
+        "previousStatus": {
+          "status": "pending",
+          "requiredScope": "Metadata/helper/source-component peer before root application; no clinical approval inferred."
+        },
+        "peer": {
+          "file": "reports/review-20261003/seven-limited-source-evidence-independent-peer-final26-v2-r2.json",
+          "sha256": "28a96906dcfa0ce5272da34613c4ca61686204552a235ebc4adbb65e4ff6868c",
+          "summary": {
+            "checks": 18879,
+            "failed": 0,
+            "methods": 7,
+            "sourceRows": 2902,
+            "uniqueInputs": 2902,
+            "freshExecutions": 8706,
+            "helperAssertions": 25953,
+            "metadataMethods": 120,
+            "metadataRows": 52620,
+            "metadataUnique": 52548,
+            "metadataRepeats": 72
+          },
+          "scope": "Root independent peer of exact41 preimages/afterimages; independently frozen2902 input/expected objects checked before imports; public bank numeric projection excludes untested survival, zones, prose and risk codes. Original862fixtures, fields, methods, versions and approvals retained. Exact helper reversal restores all11 previous scopes;21 fresh Node helper executions replay all7 limited numeric components without clinical approval."
+        },
+        "application": {
+          "file": "reports/review-20261003/seven-limited-source-evidence-application-final26.json",
+          "sha256": "3b1cd7d57c7062aa640504095c1a7eca5b051af7c0c0c8d4d5b1965a869080da"
+        },
+        "reviewedBankScope": "Tanaka2001 pooled predicted HRmax208−0.7×age component for synthetic ages18–81. Twelve optional measured-HRmax preservation cases and one negative-reserve local rejection are separate implementation contracts, not Tanaka validation. Karvonen exercise zones, percentage thresholds, safety and individual measured/predicted accuracy excluded.",
+        "currentBinding": {
+          "source26BankSha256": "5845236bbef229d6ceac71fa2ac184b4ad47856635fcdfd7fe01b5940e9b31b8",
+          "implementations": [
+            {
+              "file": "apps/website/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+              "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+            },
+            {
+              "file": "apps/dashboard/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+              "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+            },
+            {
+              "file": "apps/command-center/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+              "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+            }
+          ],
+          "subsequentReviewedRebinds": []
+        },
+        "originalFailuresAndScopeQualificationsPreserved": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "actualAdapterExecutions": 615,
+      "actualVmExecutions": 615,
+      "implementations": [
+        {
+          "id": "zonas-de-treino-karvonen",
+          "app": "website",
+          "file": "apps/website/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+          "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+        },
+        {
+          "id": "zonas-de-treino-karvonen",
+          "app": "dashboard",
+          "file": "apps/dashboard/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+          "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+        },
+        {
+          "id": "zonas-de-treino-karvonen",
+          "app": "command-center",
+          "file": "apps/command-center/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+          "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+        }
+      ],
+      "qualifications": [
+        "Tanaka2001 pooled predicted HRmax208−0.7×age component for synthetic ages18–81. Twelve optional measured-HRmax preservation cases and one negative-reserve local rejection are separate implementation contracts, not Tanaka validation. Karvonen exercise zones, percentage thresholds, safety and individual measured/predicted accuracy excluded.",
+        "Original sourceExpected data retained alongside own expected raw-component projections; clinical codes/thresholds and survival fields deliberately excluded from the package replay.",
+        "All862 original historical fixtures/expected values/tolerances and approval flags preserved. Four inline metadata rows are only a declared subset of this complete downloadable bank."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicOutputProjection": {
+        "status": "only-verified-raw-numeric-components",
+        "recordedAt": "2026-10-04T16:49:59.816Z",
+        "sourceEvidence": {
+          "file": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+          "sha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80"
+        },
+        "originalBank": {
+          "file": "reports/review-20261003/seven-limited-source-evidence-stage-final26/apps/website/private/tool-code/zonas-de-treino-karvonen/independent-source-cases.json",
+          "sha256": "a1d618e9d780d7ab69c82d80a8253c7715482b7a38e7b62e63ba43cac90682c2"
+        },
+        "originalReportsPreserved": true,
+        "excluded": [
+          "Unexposed MASCC risk flag and USC/VNPI group expectations",
+          "MACIS survival and other untested returned raw fields",
+          "Karvonen exercise-zone main display and all untested main display values",
+          "Original API error prose; only rejection presence is tested"
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Karvonen 1957 FCreserva; Tanaka 2001 FCmax 208−0,7 idade; intensidadeprescrita",
+    "implementationVersion": "zonas-de-treino-karvonen@native-2026-10-03+396641f127b0",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/13470504/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "FC-alvo = FC de repouso + % de intensidade × (FC máxima − FC de repouso). Sem teste, a FC máxima é estimada pela equação de Tanaka : 208 − 0,7 × idade.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "idade",
+            "label": "Idade",
+            "type": "num",
+            "min": 10,
+            "max": 100,
+            "unit": "anos",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "fcrep",
+            "label": "FC de repouso (ao acordar)",
+            "type": "num",
+            "min": 30,
+            "max": 120,
+            "unit": "bpm",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "fcmax",
+            "label": "FC máxima medida em teste (se houver)",
+            "type": "num",
+            "min": 100,
+            "max": 230,
+            "unit": "bpm",
+            "optional": true,
+            "options": null
+          }
+        ],
+        "hash": "4286120cb38ef16e71c8fd0ea1da06d047e14a676767a24f04082c3b297c1c54"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Karvonen MJ, Kentala E, Mustala O. The effects of training on heart rate: a longitudinal study. Ann Med Exp Biol Fenn, 1957.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13470504/",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The effects of training on heart rate; a longitudinal study.",
+            "year": "1957",
+            "firstPublicationDate": "1957-01-01",
+            "pmid": "13470504",
+            "journal": "Annales medicinae experimentalis et biologiae Fenniae",
+            "authors": "KARVONEN MJ, KENTALA E, MUSTALA O."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/13470504/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Tanaka H, Monahan KD, Seals DR. Age-predicted maximal heart rate revisited. J Am Coll Cardiol, 2001.",
+          "url": "https://doi.org/10.1016/S0735-1097(00)01054-8",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Age-predicted maximal heart rate revisited.",
+            "year": "2001",
+            "firstPublicationDate": "2001-01-01",
+            "doi": "10.1016/s0735-1097(00)01054-8",
+            "pmid": "11153730",
+            "journal": "Journal of the American College of Cardiology",
+            "authors": "Tanaka H, Monahan KD, Seals DR."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/11153730/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "95f3e6e1dc97b21d0ca2879181376cbbcc35bee9c8b10de6429f5fa27add4005",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Garber CE et al. Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults. Med Sci Sports Exerc, 2011.",
+          "url": "https://doi.org/10.1249/MSS.0b013e318213fefb",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "American College of Sports Medicine position stand. Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults: guidance for prescribing exercise.",
+            "year": "2011",
+            "firstPublicationDate": "2011-07-01",
+            "doi": "10.1249/mss.0b013e318213fefb",
+            "pmid": "21694556",
+            "journal": "Medicine and science in sports and exercise",
+            "authors": "Garber CE, Blissmer B, Deschenes MR, Franklin BA, Lamonte MJ, Lee IM, Nieman DC, Swain DP, American College of Sports Medicine."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/21694556/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "9da8c6a6d291171c6d789fc0a0cab12a0408992ac6bdce52aba589301b68009c",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T16:44:15.359Z",
+        "total": 205,
+        "passed": 205,
+        "sourceRowCount": 205,
+        "uniqueApiInputCount": 205,
+        "sourceContextCount": 205,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "e8da9067300818e77b91747deebd10c47c4df03f7532ac894e23bce1a070b781",
+          "total": 205,
+          "bankRowCount": 205,
+          "uniqueApiInputCount": 205,
+          "sourceContextCount": 205,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/seven-limited-source-independent-expectations-final26.json",
+              "sha256": "4b960d8c215321b3f059726a3b7bc6b35f0fe4d63a7ee845fbc6edb535a4f0cc"
+            },
+            {
+              "file": "reports/review-20261003/three-limited-source-expectations-final23.json",
+              "sha256": "77dd54945e893d2ec34288cfcccaad3bd6208515cd255912b98c0e2de48a30e3"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+            "sha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80"
+          },
+          "packagingRequirement": "Copy this V2 strictly scoped complete bank only into fresh frozen26 packages after independent peer; V1 and prior25 archives remain unchanged."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "audit": {
+            "file": "reports/review-20261003/seven-limited-source-input-identity-final26.json",
+            "sha256": "e184ba55d7cd2c90120c495d3143d067bd5d72ae98b914f22a75fb943e510d94"
+          },
+          "sourceRows": 205,
+          "uniqueApiInputs": 205,
+          "duplicateRows": 0
+        },
+        "scope": "Tanaka2001 pooled predicted HRmax208−0.7×age component for synthetic ages18–81. Twelve optional measured-HRmax preservation cases and one negative-reserve local rejection are separate implementation contracts, not Tanaka validation. Karvonen exercise zones, percentage thresholds, safety and individual measured/predicted accuracy excluded.",
+        "sources": [
+          {
+            "id": "zonas-de-treino-karvonen",
+            "edition": "Tanaka/Monahan/Seals2001, JACC37:153–156, PMID11153730",
+            "url": "https://webs.um.es/jlyuste/documts/tanaka.pdf",
+            "pdf": "limited-primary-tanaka2001-final23.pdf",
+            "pdfSha256": "7eb5d1275df59fb9a56b3ea9e2009212e383540857bb8935fc98fc63fae72ba4",
+            "access": "Direct PubMed opening returned HHS footer; original abstract found via indexed primary search. Original JACC paper PDF hosted by university retrieved; printed153–156 rendered and selected abstract, population, pooled regression and applicability sections visually read.",
+            "readScope": "Only pooled predicted HRmax208−0.7×age, healthy adults; laboratory514subjects18–81, BMI<35, nonsmoking and without medication except postmenopausal hormone replacement. Study warns individual variation and excludes overt cardiovascular disease/smokers.",
+            "formula": "predicted HRmax=208-0.7*age",
+            "notReviewed": [
+              "Karvonen1957 original full text",
+              "ACSM percentage-zone thresholds or exercise safety",
+              "Patient-specific medication/disease applicability",
+              "Measured HRmax clinical accuracy; only local branch preservation tested"
+            ]
+          }
+        ],
+        "evidencePath": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+        "evidenceSha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80",
+        "originalEvidence": {
+          "file": "reports/review-20261003/three-limited-source-oracles-final23.json",
+          "sha256": "b5a0c3a3822f0195aff892cd543332097c5b8a7ecd108774719038a91d98392f"
+        },
+        "independentPeer": {
+          "status": "passed",
+          "requiredScope": "Metadata/helper/source-component peer before root application; no clinical approval inferred.",
+          "recordedAt": "2026-10-04T18:58:14.733Z",
+          "scope": "Existing independent technical complete-bank/metadata/helper peer recorded after guarded source26 application. This status does not certify clinical eligibility, full instrument conformance, professional translation or source rights; no new arithmetic/browser execution is claimed by this metadata amendment.",
+          "previousStatus": {
+            "status": "pending",
+            "requiredScope": "Metadata/helper/source-component peer before root application; no clinical approval inferred."
+          },
+          "peer": {
+            "file": "reports/review-20261003/seven-limited-source-evidence-independent-peer-final26-v2-r2.json",
+            "sha256": "28a96906dcfa0ce5272da34613c4ca61686204552a235ebc4adbb65e4ff6868c",
+            "summary": {
+              "checks": 18879,
+              "failed": 0,
+              "methods": 7,
+              "sourceRows": 2902,
+              "uniqueInputs": 2902,
+              "freshExecutions": 8706,
+              "helperAssertions": 25953,
+              "metadataMethods": 120,
+              "metadataRows": 52620,
+              "metadataUnique": 52548,
+              "metadataRepeats": 72
+            },
+            "scope": "Root independent peer of exact41 preimages/afterimages; independently frozen2902 input/expected objects checked before imports; public bank numeric projection excludes untested survival, zones, prose and risk codes. Original862fixtures, fields, methods, versions and approvals retained. Exact helper reversal restores all11 previous scopes;21 fresh Node helper executions replay all7 limited numeric components without clinical approval."
+          },
+          "application": {
+            "file": "reports/review-20261003/seven-limited-source-evidence-application-final26.json",
+            "sha256": "3b1cd7d57c7062aa640504095c1a7eca5b051af7c0c0c8d4d5b1965a869080da"
+          },
+          "reviewedBankScope": "Tanaka2001 pooled predicted HRmax208−0.7×age component for synthetic ages18–81. Twelve optional measured-HRmax preservation cases and one negative-reserve local rejection are separate implementation contracts, not Tanaka validation. Karvonen exercise zones, percentage thresholds, safety and individual measured/predicted accuracy excluded.",
+          "currentBinding": {
+            "source26BankSha256": "5845236bbef229d6ceac71fa2ac184b4ad47856635fcdfd7fe01b5940e9b31b8",
+            "implementations": [
+              {
+                "file": "apps/website/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+                "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+              },
+              {
+                "file": "apps/dashboard/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+                "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+              },
+              {
+                "file": "apps/command-center/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+                "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+              }
+            ],
+            "subsequentReviewedRebinds": []
+          },
+          "originalFailuresAndScopeQualificationsPreserved": true,
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "actualAdapterExecutions": 615,
+        "actualVmExecutions": 615,
+        "implementations": [
+          {
+            "id": "zonas-de-treino-karvonen",
+            "app": "website",
+            "file": "apps/website/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+            "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+          },
+          {
+            "id": "zonas-de-treino-karvonen",
+            "app": "dashboard",
+            "file": "apps/dashboard/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+            "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+          },
+          {
+            "id": "zonas-de-treino-karvonen",
+            "app": "command-center",
+            "file": "apps/command-center/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+            "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+          }
+        ],
+        "qualifications": [
+          "Tanaka2001 pooled predicted HRmax208−0.7×age component for synthetic ages18–81. Twelve optional measured-HRmax preservation cases and one negative-reserve local rejection are separate implementation contracts, not Tanaka validation. Karvonen exercise zones, percentage thresholds, safety and individual measured/predicted accuracy excluded.",
+          "Original sourceExpected data retained alongside own expected raw-component projections; clinical codes/thresholds and survival fields deliberately excluded from the package replay.",
+          "All862 original historical fixtures/expected values/tolerances and approval flags preserved. Four inline metadata rows are only a declared subset of this complete downloadable bank."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicOutputProjection": {
+          "status": "only-verified-raw-numeric-components",
+          "recordedAt": "2026-10-04T16:49:59.816Z",
+          "sourceEvidence": {
+            "file": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+            "sha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80"
+          },
+          "originalBank": {
+            "file": "reports/review-20261003/seven-limited-source-evidence-stage-final26/apps/website/private/tool-code/zonas-de-treino-karvonen/independent-source-cases.json",
+            "sha256": "a1d618e9d780d7ab69c82d80a8253c7715482b7a38e7b62e63ba43cac90682c2"
+          },
+          "originalReportsPreserved": true,
+          "excluded": [
+            "Unexposed MASCC risk flag and USC/VNPI group expectations",
+            "MACIS survival and other untested returned raw fields",
+            "Karvonen exercise-zone main display and all untested main display values",
+            "Original API error prose; only rejection presence is tested"
+          ],
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed"
+        },
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+    },
+    "limits": "A zona de Karvonen usa frequência de repouso e reserva de frequência cardíaca; a intensidade deve ser prescrita para a pessoa e seu contexto de exercício. Sem teste, a máxima é uma estimativa de Tanaka 2001, derivada em adultos saudáveis, não uma máxima medida nem uma garantia de segurança. A orientação ACSM citada é para adultos aparentemente saudáveis; aplicação a doenças crônicas ou limitações exige avaliação apropriada. Não extrapole automaticamente a equação para crianças ou para condições que alterem a resposta da frequência cardíaca.",
+    "limitsEvidence": {
+      "status": "original-adult-study-and-position-stand-abstracts-read",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/S0735-1097(00)01054-8",
+          "edition": "Tanaka2001",
+          "readScope": "Exact original abstract fully read:healthyadults,351studies18712subjects,crossvalidation514healthy subjects."
+        },
+        {
+          "url": "https://doi.org/10.1249/MSS.0b013e318213fefb",
+          "edition": "ACSMGarber2011",
+          "readScope": "Exact original position-stand abstract fully read:apparently healthy adults,individual exercise prescription;certain chronic conditions require evaluation/advice."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13470504/",
+          "edition": "Karvonen1957",
+          "readScope": "Identity only."
+        }
+      ],
+      "populationScope": "Healthy-adult maximal-heart-rate estimation and individually prescribed intensity.",
+      "remainingChecks": [
+        "OriginalKarvonen1957 full study not read.",
+        "Specific disease/medication effects not quantified by primary sections read."
+      ],
+      "clinicalValidation": "not-performed",
+      "professionalLanguageReview": "not-performed",
+      "rightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+    "bytes": 5487,
+    "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "2a151e40c64e16054ca539fd25d78cf11ad38795ebda6640e33e1fdba1c53518",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "7d0af269ba4e4910abc565a13e2be00b4015a34f7a375aeb781ab8f695298cf1",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "7d0af269ba4e4910abc565a13e2be00b4015a34f7a375aeb781ab8f695298cf1",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

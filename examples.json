@@ -1,6 +1,13 @@
 [
   {
-    "label": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+    "id": "zonas-de-treino-karvonen",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+    "originalInput": {
+      "idade": 40,
+      "fcrep": 60
+    },
     "input": {
       "idade": 40,
       "fcrep": 60
@@ -16,14 +23,40 @@
       },
       "level": "info"
     },
-    "originalInput": {
-      "idade": 40,
-      "fcrep": 60
+    "recordedResult": {
+      "main": [
+        "108–131",
+        "bpm"
+      ],
+      "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+      "raw": {
+        "fcmax": 180,
+        "reserva": 120,
+        "mod_min": 108,
+        "mod_max": 130.8,
+        "vig_min": 132,
+        "vig_max": 166.8
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+    "id": "zonas-de-treino-karvonen",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+    "originalInput": {
+      "idade": 30,
+      "fcrep": 70,
+      "fcmax": 190
+    },
     "input": {
       "idade": 30,
       "fcrep": 70,
@@ -36,15 +69,40 @@
         "vig_min": 142
       }
     },
-    "originalInput": {
-      "idade": 30,
-      "fcrep": 70,
-      "fcmax": 190
+    "recordedResult": {
+      "main": [
+        "118–141",
+        "bpm"
+      ],
+      "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+      "raw": {
+        "fcmax": 190,
+        "reserva": 120,
+        "mod_min": 118,
+        "mod_max": 140.8,
+        "vig_min": 142,
+        "vig_max": 176.8
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "FC de repouso maior que a máxima medida: erro",
+    "id": "zonas-de-treino-karvonen",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "FC de repouso maior que a máxima medida: erro",
+    "originalInput": {
+      "idade": 50,
+      "fcrep": 110,
+      "fcmax": 100
+    },
     "input": {
       "idade": 50,
       "fcrep": 110,
@@ -53,11 +111,16 @@
     "expected": {
       "error": true
     },
-    "originalInput": {
-      "idade": 50,
-      "fcrep": 110,
-      "fcmax": 100
+    "recordedResult": {
+      "error": "A FC de repouso precisa ser menor que a FC máxima."
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

@@ -1,42 +1,18 @@
 {
   "name": "@elucenia/tool-zonas-de-treino-karvonen",
-  "version": "0.1.0",
-  "description": "Zonas de treino pela FC de reserva (Karvonen) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
-  "keywords": [
-    "elucenia",
-    "medical-calculator",
-    "clinical-score",
-    "healthcare",
-    "zero-dependencies",
-    "zonas-de-treino-karvonen"
-  ],
-  "main": "calculator.js",
+  "version": "0.0.0-build-final36",
+  "private": true,
   "type": "commonjs",
-  "files": [
-    "calculator.js",
-    "index.html",
-    "tool.json",
-    "examples.json",
-    "README.md",
-    "LICENSE",
-    "NOTICE",
-    "AUTHORSHIP.md",
-    "CITATION.cff"
-  ],
-  "author": "Felipe Guedes <contato@elucenia.org> (https://fgxdev.com)",
+  "main": "calculator.js",
   "license": "Apache-2.0",
-  "homepage": "https://elucenia.org",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Elucenia/tool-zonas-de-treino-karvonen.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Elucenia/tool-zonas-de-treino-karvonen/issues"
-  },
   "scripts": {
     "test": "node test.cjs"
   },
   "engines": {
     "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elucenia/tool-zonas-de-treino-karvonen.git"
   }
 }

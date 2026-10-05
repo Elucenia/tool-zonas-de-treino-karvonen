@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field idade",
+    "input": {
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field idade",
+    "input": {
+      "idade": "",
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" idade",
+    "input": {
+      "idade": "NaN",
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" idade",
+    "input": {
+      "idade": "Infinity",
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" idade",
+    "input": {
+      "idade": "1e309",
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" idade",
+    "input": {
+      "idade": "invalid",
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} idade",
+    "input": {
+      "idade": {},
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true idade",
+    "input": {
+      "idade": true,
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum idade",
+    "input": {
+      "idade": 9,
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum idade",
+    "input": {
+      "idade": 110,
+      "fcrep": 60
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "idade"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field fcrep",
+    "input": {
+      "idade": 40
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": "NaN"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": "Infinity"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": "1e309"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": "invalid"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": {}
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": true
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": 27
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum fcrep",
+    "input": {
+      "idade": 40,
+      "fcrep": 132
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "fcrep"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" fcmax",
+    "input": {
+      "idade": 40,
+      "fcrep": 60,
+      "fcmax": "NaN"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcmax"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" fcmax",
+    "input": {
+      "idade": 40,
+      "fcrep": 60,
+      "fcmax": "Infinity"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcmax"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" fcmax",
+    "input": {
+      "idade": 40,
+      "fcrep": 60,
+      "fcmax": "1e309"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcmax"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" fcmax",
+    "input": {
+      "idade": 40,
+      "fcrep": 60,
+      "fcmax": "invalid"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcmax"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} fcmax",
+    "input": {
+      "idade": 40,
+      "fcrep": 60,
+      "fcmax": {}
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcmax"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true fcmax",
+    "input": {
+      "idade": 40,
+      "fcrep": 60,
+      "fcmax": true
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "fcmax"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum fcmax",
+    "input": {
+      "idade": 40,
+      "fcrep": 60,
+      "fcmax": 90
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "fcmax"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum fcmax",
+    "input": {
+      "idade": 40,
+      "fcrep": 60,
+      "fcmax": 253
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "fcmax"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]

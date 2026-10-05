@@ -1,0 +1,88 @@
+{
+  "id": "zonas-de-treino-karvonen",
+  "repository": "Elucenia/tool-zonas-de-treino-karvonen",
+  "branch": "main",
+  "commit": "6db4947b4130f53aad374c2ac93518b6d66b482e",
+  "archiveSha256": "f47ec23cdc247d567fc190055200604e64578e682113c720d96d993e874bcbf1",
+  "protectedFiles": [
+    {
+      "path": ".gitattributes",
+      "type": "blob",
+      "mode": "100644",
+      "size": 19,
+      "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 279,
+      "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
+      "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 42,
+      "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
+      "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
+    },
+    {
+      "path": "AUTHORSHIP.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3359,
+      "sha": "d001b37075c4e65088fd06cb439cf76cdedc532f",
+      "sha256": "9ea6c860307cbf224d34e53ad19ef5f06053cf3227a9fc37b2194dac6c04e151"
+    },
+    {
+      "path": "CITATION.cff",
+      "type": "blob",
+      "mode": "100644",
+      "size": 967,
+      "sha": "fd63dc8e7fbe4dade85fe440e4e961ed7754daba",
+      "sha256": "a7f31f2d5f0479f1dd4291eef3aa2b816e2864a440c6ebe2f9a8e03008286d71"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1475,
+      "sha": "ec07ed05361614174be6a596d0fe335b2d2c94e9",
+      "sha256": "5c00e21a792d2fa8c3ac0bf4a09e9c93d2684df6ea0e1434f7d4ecd7e2278c64"
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11358,
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1670,
+      "sha": "c91e9109f6f89d8d2caa1ff4ca871b9810053245",
+      "sha256": "71ab8dafeec0f8522562f660015898d2a468adc3e7e13e5de303f22c0dee7a02"
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 894,
+      "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
+      "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
+    }
+  ],
+  "receipt": {
+    "file": "reports/review-20261005-completion/native190-protected-remote-baseline-r1.json",
+    "bytes": 6066154,
+    "sha256": "ec8bac70e5a6eed7fb742c319c4e68344eea5713350fa16b9d9bf48e014a9a88"
+  },
+  "remoteCodeExecuted": false,
+  "freshBranchReadRequiredBeforePublication": true
+}

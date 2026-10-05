@@ -1,0 +1,365 @@
+{
+  "id": "zonas-de-treino-karvonen",
+  "at": "2026-10-05T17:30:16.342Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+    "bytes": 5487,
+    "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+  },
+  "cases": [
+    {
+      "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+      "input": {
+        "idade": 40,
+        "fcrep": 60
+      },
+      "obtained": {
+        "id": "zonas-de-treino-karvonen",
+        "main": [
+          "108–131",
+          "bpm"
+        ],
+        "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+        "raw": {
+          "fcmax": 180,
+          "reserva": 120,
+          "mod_min": 108,
+          "mod_max": 130.8,
+          "vig_min": 132,
+          "vig_max": 166.8
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.fcmax",
+          "expected": 180,
+          "obtained": 180,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.reserva",
+          "expected": 120,
+          "obtained": 120,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.mod_min",
+          "expected": 108,
+          "obtained": 108,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.mod_max",
+          "expected": 130.8,
+          "obtained": 130.8,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.vig_min",
+          "expected": 132,
+          "obtained": 132,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.vig_max",
+          "expected": 166.8,
+          "obtained": 166.8,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.fcmax",
+          "expected": 180,
+          "obtained": 180,
+          "tolerance": 1.8e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.reserva",
+          "expected": 120,
+          "obtained": 120,
+          "tolerance": 1.2e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mod_min",
+          "expected": 108,
+          "obtained": 108,
+          "tolerance": 1.08e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mod_max",
+          "expected": 130.8,
+          "obtained": 130.8,
+          "tolerance": 1.308e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.vig_min",
+          "expected": 132,
+          "obtained": 132,
+          "tolerance": 1.32e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.vig_max",
+          "expected": 166.8,
+          "obtained": 166.8,
+          "tolerance": 1.668e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "108–131",
+          "obtained": "108–131",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "bpm",
+          "obtained": "bpm",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+      "input": {
+        "idade": 30,
+        "fcrep": 70,
+        "fcmax": 190
+      },
+      "obtained": {
+        "id": "zonas-de-treino-karvonen",
+        "main": [
+          "118–141",
+          "bpm"
+        ],
+        "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+        "raw": {
+          "fcmax": 190,
+          "reserva": 120,
+          "mod_min": 118,
+          "mod_max": 140.8,
+          "vig_min": 142,
+          "vig_max": 176.8
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.fcmax",
+          "expected": 190,
+          "obtained": 190,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.mod_min",
+          "expected": 118,
+          "obtained": 118,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.vig_min",
+          "expected": 142,
+          "obtained": 142,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.fcmax",
+          "expected": 190,
+          "obtained": 190,
+          "tolerance": 1.9e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.reserva",
+          "expected": 120,
+          "obtained": 120,
+          "tolerance": 1.2e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mod_min",
+          "expected": 118,
+          "obtained": 118,
+          "tolerance": 1.18e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.mod_max",
+          "expected": 140.8,
+          "obtained": 140.8,
+          "tolerance": 1.4080000000000002e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.vig_min",
+          "expected": 142,
+          "obtained": 142,
+          "tolerance": 1.42e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.vig_max",
+          "expected": 176.8,
+          "obtained": 176.8,
+          "tolerance": 1.768e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "118–141",
+          "obtained": "118–141",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "bpm",
+          "obtained": "bpm",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    },
+    {
+      "name": "FC de repouso maior que a máxima medida: erro",
+      "input": {
+        "idade": 50,
+        "fcrep": 110,
+        "fcmax": 100
+      },
+      "obtained": {
+        "error": "A FC de repouso precisa ser menor que a FC máxima.",
+        "code": "FORMULA_DOMAIN"
+      },
+      "checks": [
+        {
+          "at": "recorded-rejection",
+          "expected": "4xx with error and no result",
+          "obtained": {
+            "status": 422,
+            "error": "A FC de repouso precisa ser menor que a FC máxima.",
+            "result": false
+          },
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 32,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}
