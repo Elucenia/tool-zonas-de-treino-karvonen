@@ -25,7 +25,7 @@ Serve this directory with a static HTTP server and open index.html. The demonstr
 
 Karvonen 1957 FCreserva; Tanaka 2001 FCmax 208−0,7 idade; intensidadeprescrita
 
-results.json records fresh current source and packaged browser VM parity. Browser VM is an isolated JavaScript realm, not a real browser UI/hydration journey. The new served HTTP R6 replay is pending and will be attached only after completion. Existing synthetic source expectations are not a newly derived clinical oracle. Independent clinical and professional language approval have not been performed.
+results.json records fresh current source and packaged browser VM parity. Browser VM is an isolated JavaScript realm, not a real browser UI/hydration journey. The actual local frozen R6 HTTP replay is recorded in [evidence/served-http-r6.json](evidence/served-http-r6.json): 3 documented source cases passed, and the served calculator source hash equals this package engine. This is not a real browser journey or Hostinger production deployment confirmation. Existing synthetic source expectations are not a newly derived clinical oracle. Independent clinical and professional language approval have not been performed.
 
 ## Source and licence scope
 

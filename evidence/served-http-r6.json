@@ -1,0 +1,731 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "zonas-de-treino-karvonen",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/zonas-de-treino-karvonen/calculator.js",
+    "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f",
+    "bytes": 5487
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 3,
+    "replayed": 3,
+    "passed": 3,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "zonas-de-treino-karvonen",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+      "originalInput": {
+        "idade": 40,
+        "fcrep": 60
+      },
+      "input": {
+        "idade": 40,
+        "fcrep": 60
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "fcmax": 180,
+          "reserva": 120,
+          "mod_min": 108,
+          "mod_max": 130.8,
+          "vig_min": 132,
+          "vig_max": 166.8
+        },
+        "level": "info"
+      },
+      "recordedResult": {
+        "main": [
+          "108–131",
+          "bpm"
+        ],
+        "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+        "raw": {
+          "fcmax": 180,
+          "reserva": 120,
+          "mod_min": 108,
+          "mod_max": 130.8,
+          "vig_min": 132,
+          "vig_max": 166.8
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": 40,
+            "fcrep": 60
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+          "startedAt": "2026-10-05T17:40:02.381Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "zonas-de-treino-karvonen",
+              "main": [
+                "108–131",
+                "bpm"
+              ],
+              "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+              "raw": {
+                "fcmax": 180,
+                "reserva": 120,
+                "mod_min": 108,
+                "mod_max": 130.8,
+                "vig_min": 132,
+                "vig_max": 166.8
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "2cddec662b647d65055a3b133e4d015617f454174267f6f7f52de045c1a4f10e",
+          "bytes": 269,
+          "elapsedMs": 8.0394999999844
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+        "startedAt": "2026-10-05T17:40:02.381Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "zonas-de-treino-karvonen",
+            "main": [
+              "108–131",
+              "bpm"
+            ],
+            "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+            "raw": {
+              "fcmax": 180,
+              "reserva": 120,
+              "mod_min": 108,
+              "mod_max": 130.8,
+              "vig_min": 132,
+              "vig_max": 166.8
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "2cddec662b647d65055a3b133e4d015617f454174267f6f7f52de045c1a4f10e",
+        "bytes": 269,
+        "elapsedMs": 8.0394999999844
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.fcmax",
+            "expected": 180,
+            "obtained": 180,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.reserva",
+            "expected": 120,
+            "obtained": 120,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.mod_min",
+            "expected": 108,
+            "obtained": 108,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.mod_max",
+            "expected": 130.8,
+            "obtained": 130.8,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.vig_min",
+            "expected": 132,
+            "obtained": 132,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.vig_max",
+            "expected": 166.8,
+            "obtained": 166.8,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.fcmax",
+            "expected": 180,
+            "obtained": 180,
+            "tolerance": 1.8e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.reserva",
+            "expected": 120,
+            "obtained": 120,
+            "tolerance": 1.2e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.mod_min",
+            "expected": 108,
+            "obtained": 108,
+            "tolerance": 1.08e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.mod_max",
+            "expected": 130.8,
+            "obtained": 130.8,
+            "tolerance": 1.308e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.vig_min",
+            "expected": 132,
+            "obtained": 132,
+            "tolerance": 1.32e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.vig_max",
+            "expected": 166.8,
+            "obtained": 166.8,
+            "tolerance": 1.668e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "108–131",
+            "obtained": "108–131",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "bpm",
+            "obtained": "bpm",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "zonas-de-treino-karvonen",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+      "originalInput": {
+        "idade": 30,
+        "fcrep": 70,
+        "fcmax": 190
+      },
+      "input": {
+        "idade": 30,
+        "fcrep": 70,
+        "fcmax": 190
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "fcmax": 190,
+          "mod_min": 118,
+          "vig_min": 142
+        }
+      },
+      "recordedResult": {
+        "main": [
+          "118–141",
+          "bpm"
+        ],
+        "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+        "raw": {
+          "fcmax": 190,
+          "reserva": 120,
+          "mod_min": 118,
+          "mod_max": 140.8,
+          "vig_min": 142,
+          "vig_max": 176.8
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": 30,
+            "fcrep": 70,
+            "fcmax": 190
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+          "startedAt": "2026-10-05T17:40:02.695Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "zonas-de-treino-karvonen",
+              "main": [
+                "118–141",
+                "bpm"
+              ],
+              "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+              "raw": {
+                "fcmax": 190,
+                "reserva": 120,
+                "mod_min": 118,
+                "mod_max": 140.8,
+                "vig_min": 142,
+                "vig_max": 176.8
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "ec9b93bf55fdf249f7910de4fd1bccf5a3eedcfaf980cce50dc109781392ed2e",
+          "bytes": 269,
+          "elapsedMs": 6.672500000015134
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+        "startedAt": "2026-10-05T17:40:02.695Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "zonas-de-treino-karvonen",
+            "main": [
+              "118–141",
+              "bpm"
+            ],
+            "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+            "raw": {
+              "fcmax": 190,
+              "reserva": 120,
+              "mod_min": 118,
+              "mod_max": 140.8,
+              "vig_min": 142,
+              "vig_max": 176.8
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "ec9b93bf55fdf249f7910de4fd1bccf5a3eedcfaf980cce50dc109781392ed2e",
+        "bytes": 269,
+        "elapsedMs": 6.672500000015134
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.fcmax",
+            "expected": 190,
+            "obtained": 190,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.mod_min",
+            "expected": 118,
+            "obtained": 118,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.vig_min",
+            "expected": 142,
+            "obtained": 142,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.fcmax",
+            "expected": 190,
+            "obtained": 190,
+            "tolerance": 1.9e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.reserva",
+            "expected": 120,
+            "obtained": 120,
+            "tolerance": 1.2e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.mod_min",
+            "expected": 118,
+            "obtained": 118,
+            "tolerance": 1.18e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.mod_max",
+            "expected": 140.8,
+            "obtained": 140.8,
+            "tolerance": 1.4080000000000002e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.vig_min",
+            "expected": 142,
+            "obtained": 142,
+            "tolerance": 1.42e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.vig_max",
+            "expected": 176.8,
+            "obtained": 176.8,
+            "tolerance": 1.768e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "118–141",
+            "obtained": "118–141",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "bpm",
+            "obtained": "bpm",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "zonas-de-treino-karvonen",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "FC de repouso maior que a máxima medida: erro",
+      "originalInput": {
+        "idade": 50,
+        "fcrep": 110,
+        "fcmax": 100
+      },
+      "input": {
+        "idade": 50,
+        "fcrep": 110,
+        "fcmax": 100
+      },
+      "amendments": [],
+      "expected": {
+        "error": true
+      },
+      "recordedResult": {
+        "error": "A FC de repouso precisa ser menor que a FC máxima."
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": 50,
+            "fcrep": 110,
+            "fcmax": 100
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+          "startedAt": "2026-10-05T17:40:03.007Z",
+          "status": 422,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "error": "A FC de repouso precisa ser menor que a FC máxima.",
+            "code": "FORMULA_DOMAIN"
+          },
+          "responseSha256": "418ffe2a7e07d9fc3322867034f629b6acc70983775ee782a76fd4c3dd8add7d",
+          "bytes": 87,
+          "elapsedMs": 3.9886999999871477
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/zonas-de-treino-karvonen/calculate",
+        "startedAt": "2026-10-05T17:40:03.007Z",
+        "status": 422,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "error": "A FC de repouso precisa ser menor que a FC máxima.",
+          "code": "FORMULA_DOMAIN"
+        },
+        "responseSha256": "418ffe2a7e07d9fc3322867034f629b6acc70983775ee782a76fd4c3dd8add7d",
+        "bytes": 87,
+        "elapsedMs": 3.9886999999871477
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "recorded-rejection",
+            "expected": "4xx with error and no result",
+            "obtained": {
+              "status": 422,
+              "error": "A FC de repouso precisa ser menor que a FC máxima.",
+              "result": false
+            },
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
