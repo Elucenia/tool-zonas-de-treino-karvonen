@@ -75,3 +75,39 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Intensité vigoureuse : 132 à 167 bpm (60 à 89 % de la réserve)
+
+| Détails du résultat | |
+| --- | --- |
+| FC maximale (Tanaka : 208 − 0,7 × âge) | 180 bpm |
+| FC de réserve | 120 bpm |
+| Très légère (< 30 %) | < 96 bpm |
+| Légère (30 à 39 %) | 96–107 bpm |
+| Modérée (40 à 59 %) | 108–131 bpm |
+| Vigoureuse (60 à 89 %) | 132–167 bpm |
+| Proche du maximum (≥ 90 %) | ≥ 168 bpm |
+
+Avec un bêtabloquant, une cardiopathie ou chez un athlète, privilégiez la FC maximale mesurée lors d’une épreuve d’effort ou d’un test cardiopulmonaire.
+
+
+### 2
+
+Intensité vigoureuse : 142 à 177 bpm (60 à 89 % de la réserve)
+
+| Détails du résultat | |
+| --- | --- |
+| FC maximale (mesurée) | 190 bpm |
+| FC de réserve | 120 bpm |
+| Très légère (< 30 %) | < 106 bpm |
+| Légère (30 à 39 %) | 106–117 bpm |
+| Modérée (40 à 59 %) | 118–141 bpm |
+| Vigoureuse (60 à 89 %) | 142–177 bpm |
+| Proche du maximum (≥ 90 %) | ≥ 178 bpm |
+

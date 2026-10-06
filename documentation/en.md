@@ -75,3 +75,39 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Vigorous intensity: 132 to 167 bpm (60 to 89% of reserve)
+
+| Result details | |
+| --- | --- |
+| Maximum heart rate (Tanaka: 208 − 0.7 × age) | 180 bpm |
+| Reserve heart rate | 120 bpm |
+| Very light (< 30%) | < 96 bpm |
+| Light (30 to 39%) | 96–107 bpm |
+| Moderate (40 to 59%) | 108–131 bpm |
+| Vigorous (60 to 89%) | 132–167 bpm |
+| Near maximal (≥ 90%) | ≥ 168 bpm |
+
+With beta-blocker, heart disease, or as an athlete, prefer the maximum heart rate measured on exercise treadmill or cardiopulmonary testing.
+
+
+### 2
+
+Vigorous intensity: 142 to 177 bpm (60 to 89% of reserve)
+
+| Result details | |
+| --- | --- |
+| Maximum heart rate (measured) | 190 bpm |
+| Reserve heart rate | 120 bpm |
+| Very light (< 30%) | < 106 bpm |
+| Light (30 to 39%) | 106–117 bpm |
+| Moderate (40 to 59%) | 118–141 bpm |
+| Vigorous (60 to 89%) | 142–177 bpm |
+| Near maximal (≥ 90%) | ≥ 178 bpm |
+

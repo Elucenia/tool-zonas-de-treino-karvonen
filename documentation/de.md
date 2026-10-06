@@ -75,3 +75,39 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Intensive Belastung: 132 bis 167 bpm (60 bis 89 % der Reserve)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Maximale Herzfrequenz (Tanaka: 208 − 0,7 × Alter) | 180 bpm |
+| Reserveherzfrequenz | 120 bpm |
+| Sehr leicht (< 30 %) | < 96 bpm |
+| Leicht (30 bis 39 %) | 96–107 bpm |
+| Mäßig (40 bis 59 %) | 108–131 bpm |
+| Intensiv (60 bis 89 %) | 132–167 bpm |
+| Nahe am Maximum (≥ 90 %) | ≥ 168 bpm |
+
+Bei Betablockertherapie, Herzerkrankung oder als Athlet bevorzugen Sie die in einem Belastungs- oder kardiopulmonalen Test gemessene maximale Herzfrequenz.
+
+
+### 2
+
+Intensive Belastung: 142 bis 177 bpm (60 bis 89 % der Reserve)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Maximale Herzfrequenz (gemessen) | 190 bpm |
+| Reserveherzfrequenz | 120 bpm |
+| Sehr leicht (< 30 %) | < 106 bpm |
+| Leicht (30 bis 39 %) | 106–117 bpm |
+| Mäßig (40 bis 59 %) | 118–141 bpm |
+| Intensiv (60 bis 89 %) | 142–177 bpm |
+| Nahe am Maximum (≥ 90 %) | ≥ 178 bpm |
+

@@ -299,7 +299,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Karvonen 1957 FCreserva; Tanaka 2001 FCmax 208−0,7 idade; intensidadeprescrita",
-    "implementationVersion": "zonas-de-treino-karvonen@native-2026-10-03+396641f127b0",
+    "implementationVersion": "zonas-de-treino-karvonen@native-2026-10-05+0a7750d6c768",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/13470504/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -592,7 +592,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+      "implementationHash": "0a7750d6c7687973cfdd015e0dae7fc05fd229360c3c8577c1fc1598be7314f2",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "zonas-de-treino-karvonen@native-2026-10-03+396641f127b0",
+          "previousImplementationHash": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f",
+          "implementationHash": "0a7750d6c7687973cfdd015e0dae7fc05fd229360c3c8577c1fc1598be7314f2",
+          "scientificBodySha256": "ac1e2e9e1a61d42e20092a7ae2ae49294e567aa04c1f2265c8e3cd3e5ebe8636",
+          "metadataContractHash": "4286120cb38ef16e71c8fd0ea1da06d047e14a676767a24f04082c3b297c1c54",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A zona de Karvonen usa frequência de repouso e reserva de frequência cardíaca; a intensidade deve ser prescrita para a pessoa e seu contexto de exercício. Sem teste, a máxima é uma estimativa de Tanaka 2001, derivada em adultos saudáveis, não uma máxima medida nem uma garantia de segurança. A orientação ACSM citada é para adultos aparentemente saudáveis; aplicação a doenças crônicas ou limitações exige avaliação apropriada. Não extrapole automaticamente a equação para crianças ou para condições que alterem a resposta da frequência cardíaca.",
     "limitsEvidence": {
@@ -627,20 +655,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/zonas-de-treino-karvonen/calculator.js",
-    "bytes": 5487,
-    "sha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f"
+    "bytes": 5692,
+    "sha256": "0a7750d6c7687973cfdd015e0dae7fc05fd229360c3c8577c1fc1598be7314f2"
   },
-  "sourceToolSha256": "2a151e40c64e16054ca539fd25d78cf11ad38795ebda6640e33e1fdba1c53518",
+  "sourceToolSha256": "d3b58398b295ddde5d956c25b6396a2eafdfaf15abda8ae62338bafb63b72c2b",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "7d0af269ba4e4910abc565a13e2be00b4015a34f7a375aeb781ab8f695298cf1",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "7d0af269ba4e4910abc565a13e2be00b4015a34f7a375aeb781ab8f695298cf1",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

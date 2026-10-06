@@ -75,3 +75,39 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Intensidad vigorosa: 132 a 167 lpm (60 a 89% de la reserva)
+
+| Detalles del resultado | |
+| --- | --- |
+| FC máxima (Tanaka: 208 − 0,7 × edad) | 180 lpm |
+| FC de reserva | 120 lpm |
+| Muy leve (< 30%) | < 96 lpm |
+| Leve (30 a 39%) | 96–107 lpm |
+| Moderada (40 a 59%) | 108–131 lpm |
+| Vigorosa (60 a 89%) | 132–167 lpm |
+| Próxima a la máxima (≥ 90%) | ≥ 168 lpm |
+
+Con betabloqueador, cardiopatía o en atletas, prefiera la FC máxima medida en prueba ergométrica o cardiopulmonar.
+
+
+### 2
+
+Intensidad vigorosa: 142 a 177 lpm (60 a 89% de la reserva)
+
+| Detalles del resultado | |
+| --- | --- |
+| FC máxima (medida) | 190 lpm |
+| FC de reserva | 120 lpm |
+| Muy leve (< 30%) | < 106 lpm |
+| Leve (30 a 39%) | 106–117 lpm |
+| Moderada (40 a 59%) | 118–141 lpm |
+| Vigorosa (60 a 89%) | 142–177 lpm |
+| Próxima a la máxima (≥ 90%) | ≥ 178 lpm |
+

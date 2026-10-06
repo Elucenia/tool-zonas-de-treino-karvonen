@@ -1,0 +1,226 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "zonas-de-treino-karvonen",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "ca076669994234d0a836ca8f123e8da2f7576a7f",
+    "oldEngineSha256": "396641f127b06d63a278230a0eeb76d85155ae675d9ae132fe227234a4a27e1f",
+    "currentEngineSha256": "0a7750d6c7687973cfdd015e0dae7fc05fd229360c3c8577c1fc1598be7314f2"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+      "input": {
+        "idade": 40,
+        "fcrep": 60
+      },
+      "publicOutput": {
+        "id": "zonas-de-treino-karvonen",
+        "main": [
+          "108–131",
+          "bpm"
+        ],
+        "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+        "raw": {
+          "fcmax": 180,
+          "reserva": 120,
+          "mod_min": 108,
+          "mod_max": 130.8,
+          "vig_min": 132,
+          "vig_max": 166.8
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "fcmax": 180,
+          "reserva": 120,
+          "mod_min": 108,
+          "mod_max": 130.8,
+          "vig_min": 132,
+          "vig_max": 166.8
+        },
+        "level": "info"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "108–131",
+          "bpm"
+        ],
+        "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+        "level": "info",
+        "verdict": "Intensidade vigorosa: 132 a 167 bpm (60 a 89% da reserva)",
+        "rows": [
+          [
+            "FC máxima (Tanaka: 208 − 0,7 × idade)",
+            "180 bpm"
+          ],
+          [
+            "FC de reserva",
+            "120 bpm"
+          ],
+          [
+            "Muito leve (&lt; 30%)",
+            "&lt; 96 bpm"
+          ],
+          [
+            "Leve (30 a 39%)",
+            "96–107 bpm"
+          ],
+          [
+            "Moderada (40 a 59%)",
+            "108–131 bpm"
+          ],
+          [
+            "Vigorosa (60 a 89%)",
+            "132–167 bpm"
+          ],
+          [
+            "Próxima da máxima (≥ 90%)",
+            "≥ 168 bpm"
+          ]
+        ],
+        "note": "Com betabloqueador, cardiopatia ou atleta, prefira a FC máxima medida em teste ergométrico ou cardiopulmonar.",
+        "raw": {
+          "fcmax": 180,
+          "reserva": 120,
+          "mod_min": 108,
+          "mod_max": 130.8,
+          "vig_min": 132,
+          "vig_max": 166.8
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+      "input": {
+        "idade": 30,
+        "fcrep": 70,
+        "fcmax": 190
+      },
+      "publicOutput": {
+        "id": "zonas-de-treino-karvonen",
+        "main": [
+          "118–141",
+          "bpm"
+        ],
+        "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+        "raw": {
+          "fcmax": 190,
+          "reserva": 120,
+          "mod_min": 118,
+          "mod_max": 140.8,
+          "vig_min": 142,
+          "vig_max": 176.8
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "fcmax": 190,
+          "mod_min": 118,
+          "vig_min": 142
+        }
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "118–141",
+          "bpm"
+        ],
+        "label": "Zona de intensidade moderada (40 a 59% da FC de reserva)",
+        "level": "info",
+        "verdict": "Intensidade vigorosa: 142 a 177 bpm (60 a 89% da reserva)",
+        "rows": [
+          [
+            "FC máxima (medida)",
+            "190 bpm"
+          ],
+          [
+            "FC de reserva",
+            "120 bpm"
+          ],
+          [
+            "Muito leve (&lt; 30%)",
+            "&lt; 106 bpm"
+          ],
+          [
+            "Leve (30 a 39%)",
+            "106–117 bpm"
+          ],
+          [
+            "Moderada (40 a 59%)",
+            "118–141 bpm"
+          ],
+          [
+            "Vigorosa (60 a 89%)",
+            "142–177 bpm"
+          ],
+          [
+            "Próxima da máxima (≥ 90%)",
+            "≥ 178 bpm"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "fcmax": 190,
+          "reserva": 120,
+          "mod_min": 118,
+          "mod_max": 140.8,
+          "vig_min": 142,
+          "vig_max": 176.8
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "FC de repouso maior que a máxima medida: erro",
+      "input": {
+        "idade": 50,
+        "fcrep": 110,
+        "fcmax": 100
+      },
+      "publicOutput": {
+        "error": "A FC de repouso precisa ser menor que a FC máxima.",
+        "code": "FORMULA_DOMAIN"
+      },
+      "sourceExpected": {
+        "error": true
+      },
+      "state": "existing-rejection"
+    }
+  ]
+}

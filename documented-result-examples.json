@@ -1,0 +1,2661 @@
+{
+  "id": "zonas-de-treino-karvonen",
+  "implementationVersion": "zonas-de-treino-karvonen@native-2026-10-05+0a7750d6c768",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "FC máxima (Tanaka: 208 − 0,7 × idade)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "180 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FC de reserva",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Muito leve (< 30%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "< 96 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Leve (30 a 39%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "96–107 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Moderada (40 a 59%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "108–131 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigorosa (60 a 89%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "132–167 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Próxima da máxima (≥ 90%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "≥ 168 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensidade vigorosa: 132 a 167 bpm (60 a 89% da reserva)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Com betabloqueador, cardiopatia ou atleta, prefira a FC máxima medida em teste ergométrico ou cardiopulmonar.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "FC máxima (medida)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "190 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FC de reserva",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Muito leve (< 30%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "< 106 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Leve (30 a 39%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "106–117 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Moderada (40 a 59%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "118–141 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigorosa (60 a 89%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "142–177 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Próxima da máxima (≥ 90%)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "≥ 178 bpm",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensidade vigorosa: 142 a 177 bpm (60 a 89% da reserva)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Maximum heart rate (Tanaka: 208 − 0.7 × age)",
+                "locale": "en",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "180 bpm",
+                "locale": "en",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Reserve heart rate",
+                "locale": "en",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "en",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Very light (< 30%)",
+                "locale": "en",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 96 bpm",
+                "locale": "en",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Light (30 to 39%)",
+                "locale": "en",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "96–107 bpm",
+                "locale": "en",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Moderate (40 to 59%)",
+                "locale": "en",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "108–131 bpm",
+                "locale": "en",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigorous (60 to 89%)",
+                "locale": "en",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "132–167 bpm",
+                "locale": "en",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Near maximal (≥ 90%)",
+                "locale": "en",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 168 bpm",
+                "locale": "en",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Vigorous intensity: 132 to 167 bpm (60 to 89% of reserve)",
+            "locale": "en",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "With beta-blocker, heart disease, or as an athlete, prefer the maximum heart rate measured on exercise treadmill or cardiopulmonary testing.",
+            "locale": "en",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Maximum heart rate (measured)",
+                "locale": "en",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "190 bpm",
+                "locale": "en",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Reserve heart rate",
+                "locale": "en",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "en",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Very light (< 30%)",
+                "locale": "en",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 106 bpm",
+                "locale": "en",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Light (30 to 39%)",
+                "locale": "en",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "106–117 bpm",
+                "locale": "en",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Moderate (40 to 59%)",
+                "locale": "en",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "118–141 bpm",
+                "locale": "en",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigorous (60 to 89%)",
+                "locale": "en",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "142–177 bpm",
+                "locale": "en",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Near maximal (≥ 90%)",
+                "locale": "en",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 178 bpm",
+                "locale": "en",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Vigorous intensity: 142 to 177 bpm (60 to 89% of reserve)",
+            "locale": "en",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "FC máxima (Tanaka: 208 − 0,7 × edad)",
+                "locale": "es",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "180 lpm",
+                "locale": "es",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FC de reserva",
+                "locale": "es",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 lpm",
+                "locale": "es",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Muy leve (< 30%)",
+                "locale": "es",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 96 lpm",
+                "locale": "es",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Leve (30 a 39%)",
+                "locale": "es",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "96–107 lpm",
+                "locale": "es",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Moderada (40 a 59%)",
+                "locale": "es",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "108–131 lpm",
+                "locale": "es",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigorosa (60 a 89%)",
+                "locale": "es",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "132–167 lpm",
+                "locale": "es",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Próxima a la máxima (≥ 90%)",
+                "locale": "es",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 168 lpm",
+                "locale": "es",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensidad vigorosa: 132 a 167 lpm (60 a 89% de la reserva)",
+            "locale": "es",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "Con betabloqueador, cardiopatía o en atletas, prefiera la FC máxima medida en prueba ergométrica o cardiopulmonar.",
+            "locale": "es",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "FC máxima (medida)",
+                "locale": "es",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "190 lpm",
+                "locale": "es",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FC de reserva",
+                "locale": "es",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 lpm",
+                "locale": "es",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Muy leve (< 30%)",
+                "locale": "es",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 106 lpm",
+                "locale": "es",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Leve (30 a 39%)",
+                "locale": "es",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "106–117 lpm",
+                "locale": "es",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Moderada (40 a 59%)",
+                "locale": "es",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "118–141 lpm",
+                "locale": "es",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigorosa (60 a 89%)",
+                "locale": "es",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "142–177 lpm",
+                "locale": "es",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Próxima a la máxima (≥ 90%)",
+                "locale": "es",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 178 lpm",
+                "locale": "es",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensidad vigorosa: 142 a 177 lpm (60 a 89% de la reserva)",
+            "locale": "es",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "FC maximale (Tanaka : 208 − 0,7 × âge)",
+                "locale": "fr",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "180 bpm",
+                "locale": "fr",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FC de réserve",
+                "locale": "fr",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "fr",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Très légère (< 30 %)",
+                "locale": "fr",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 96 bpm",
+                "locale": "fr",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Légère (30 à 39 %)",
+                "locale": "fr",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "96–107 bpm",
+                "locale": "fr",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Modérée (40 à 59 %)",
+                "locale": "fr",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "108–131 bpm",
+                "locale": "fr",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigoureuse (60 à 89 %)",
+                "locale": "fr",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "132–167 bpm",
+                "locale": "fr",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Proche du maximum (≥ 90 %)",
+                "locale": "fr",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 168 bpm",
+                "locale": "fr",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensité vigoureuse : 132 à 167 bpm (60 à 89 % de la réserve)",
+            "locale": "fr",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "Avec un bêtabloquant, une cardiopathie ou chez un athlète, privilégiez la FC maximale mesurée lors d’une épreuve d’effort ou d’un test cardiopulmonaire.",
+            "locale": "fr",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "FC maximale (mesurée)",
+                "locale": "fr",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "190 bpm",
+                "locale": "fr",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FC de réserve",
+                "locale": "fr",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "fr",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Très légère (< 30 %)",
+                "locale": "fr",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 106 bpm",
+                "locale": "fr",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Légère (30 à 39 %)",
+                "locale": "fr",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "106–117 bpm",
+                "locale": "fr",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Modérée (40 à 59 %)",
+                "locale": "fr",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "118–141 bpm",
+                "locale": "fr",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigoureuse (60 à 89 %)",
+                "locale": "fr",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "142–177 bpm",
+                "locale": "fr",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Proche du maximum (≥ 90 %)",
+                "locale": "fr",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 178 bpm",
+                "locale": "fr",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensité vigoureuse : 142 à 177 bpm (60 à 89 % de la réserve)",
+            "locale": "fr",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Maximale Herzfrequenz (Tanaka: 208 − 0,7 × Alter)",
+                "locale": "de",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "180 bpm",
+                "locale": "de",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Reserveherzfrequenz",
+                "locale": "de",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "de",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Sehr leicht (< 30 %)",
+                "locale": "de",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 96 bpm",
+                "locale": "de",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Leicht (30 bis 39 %)",
+                "locale": "de",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "96–107 bpm",
+                "locale": "de",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Mäßig (40 bis 59 %)",
+                "locale": "de",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "108–131 bpm",
+                "locale": "de",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Intensiv (60 bis 89 %)",
+                "locale": "de",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "132–167 bpm",
+                "locale": "de",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Nahe am Maximum (≥ 90 %)",
+                "locale": "de",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 168 bpm",
+                "locale": "de",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensive Belastung: 132 bis 167 bpm (60 bis 89 % der Reserve)",
+            "locale": "de",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "Bei Betablockertherapie, Herzerkrankung oder als Athlet bevorzugen Sie die in einem Belastungs- oder kardiopulmonalen Test gemessene maximale Herzfrequenz.",
+            "locale": "de",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Maximale Herzfrequenz (gemessen)",
+                "locale": "de",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "190 bpm",
+                "locale": "de",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Reserveherzfrequenz",
+                "locale": "de",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "de",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Sehr leicht (< 30 %)",
+                "locale": "de",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 106 bpm",
+                "locale": "de",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Leicht (30 bis 39 %)",
+                "locale": "de",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "106–117 bpm",
+                "locale": "de",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Mäßig (40 bis 59 %)",
+                "locale": "de",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "118–141 bpm",
+                "locale": "de",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Intensiv (60 bis 89 %)",
+                "locale": "de",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "142–177 bpm",
+                "locale": "de",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Nahe am Maximum (≥ 90 %)",
+                "locale": "de",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 178 bpm",
+                "locale": "de",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensive Belastung: 142 bis 177 bpm (60 bis 89 % der Reserve)",
+            "locale": "de",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "FC massima (Tanaka: 208 − 0,7 × età)",
+                "locale": "it",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "180 bpm",
+                "locale": "it",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FC di riserva",
+                "locale": "it",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "it",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Molto leggera (< 30%)",
+                "locale": "it",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 96 bpm",
+                "locale": "it",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Leggera (30 a 39%)",
+                "locale": "it",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "96–107 bpm",
+                "locale": "it",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Moderata (40 a 59%)",
+                "locale": "it",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "108–131 bpm",
+                "locale": "it",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigorosa (60 a 89%)",
+                "locale": "it",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "132–167 bpm",
+                "locale": "it",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Prossima alla massima (≥ 90%)",
+                "locale": "it",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 168 bpm",
+                "locale": "it",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensità vigorosa: 132 a 167 bpm (60 a 89% della riserva)",
+            "locale": "it",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "Con betabloccante, cardiopatia o in atleta, preferire la FC massima misurata in test ergometrico o cardiopolmonare.",
+            "locale": "it",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "FC massima (misurata)",
+                "locale": "it",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "190 bpm",
+                "locale": "it",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "FC di riserva",
+                "locale": "it",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "it",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Molto leggera (< 30%)",
+                "locale": "it",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 106 bpm",
+                "locale": "it",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "Leggera (30 a 39%)",
+                "locale": "it",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "106–117 bpm",
+                "locale": "it",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "Moderata (40 a 59%)",
+                "locale": "it",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "118–141 bpm",
+                "locale": "it",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "Vigorosa (60 a 89%)",
+                "locale": "it",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "142–177 bpm",
+                "locale": "it",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "Prossima alla massima (≥ 90%)",
+                "locale": "it",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 178 bpm",
+                "locale": "it",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Intensità vigorosa: 142 a 177 bpm (60 a 89% della riserva)",
+            "locale": "it",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الحد الأقصى لمعدل ضربات القلب (Tanaka: 208 − 0,7 × العمر)",
+                "locale": "ar",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "١٨٠ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "معدل ضربات القلب الاحتياطي",
+                "locale": "ar",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "١٢٠ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "خفيفة جدًا (< 30%)",
+                "locale": "ar",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< ٩٦ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "خفيفة (30 إلى 39%)",
+                "locale": "ar",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "٩٦–١٠٧ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "متوسطة (40 إلى 59%)",
+                "locale": "ar",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "١٠٨–١٣١ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "قوية (60 إلى 89%)",
+                "locale": "ar",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "١٣٢–١٦٧ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "قريبة من الحد الأقصى (≥ 90%)",
+                "locale": "ar",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ ١٦٨ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "شدة قوية: من ١٣٢ إلى ١٦٧ نبضة/دقيقة (60 إلى 89% من الاحتياطي)",
+            "locale": "ar",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "مع حاصر بيتا، أو مرض قلبي، أو لدى الرياضيين، يُفضَّل الحد الأقصى لمعدل ضربات القلب المقاس في اختبار الجهد أو الاختبار القلبي الرئوي.",
+            "locale": "ar",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الحد الأقصى لمعدل ضربات القلب (مقاس)",
+                "locale": "ar",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "١٩٠ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "معدل ضربات القلب الاحتياطي",
+                "locale": "ar",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "١٢٠ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "خفيفة جدًا (< 30%)",
+                "locale": "ar",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< ١٠٦ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "خفيفة (30 إلى 39%)",
+                "locale": "ar",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "١٠٦–١١٧ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "متوسطة (40 إلى 59%)",
+                "locale": "ar",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "١١٨–١٤١ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "قوية (60 إلى 89%)",
+                "locale": "ar",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "١٤٢–١٧٧ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "قريبة من الحد الأقصى (≥ 90%)",
+                "locale": "ar",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ ١٧٨ نبضة/دقيقة",
+                "locale": "ar",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "شدة قوية: من ١٤٢ إلى ١٧٧ نبضة/دقيقة (60 إلى 89% من الاحتياطي)",
+            "locale": "ar",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "最大心率（Tanaka：208 − 0.7 × 年龄）",
+                "locale": "zh",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "180 bpm",
+                "locale": "zh",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "储备心率",
+                "locale": "zh",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "zh",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "非常轻度（< 30%）",
+                "locale": "zh",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 96 bpm",
+                "locale": "zh",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "轻度（30 至 39%）",
+                "locale": "zh",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "96–107 bpm",
+                "locale": "zh",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "中等（40 至 59%）",
+                "locale": "zh",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "108–131 bpm",
+                "locale": "zh",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "剧烈（60 至 89%）",
+                "locale": "zh",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "132–167 bpm",
+                "locale": "zh",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "接近最大强度（≥ 90%）",
+                "locale": "zh",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 168 bpm",
+                "locale": "zh",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "剧烈强度：132 至 167 bpm（储备的 60 至 89%）",
+            "locale": "zh",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "如使用β受体阻滞剂、患有心脏病或为运动员，优先采用在运动平板试验或心肺运动试验中测得的最大心率。",
+            "locale": "zh",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "最大心率（实测）",
+                "locale": "zh",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "190 bpm",
+                "locale": "zh",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "储备心率",
+                "locale": "zh",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "zh",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "非常轻度（< 30%）",
+                "locale": "zh",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 106 bpm",
+                "locale": "zh",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "轻度（30 至 39%）",
+                "locale": "zh",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "106–117 bpm",
+                "locale": "zh",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "中等（40 至 59%）",
+                "locale": "zh",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "118–141 bpm",
+                "locale": "zh",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "剧烈（60 至 89%）",
+                "locale": "zh",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "142–177 bpm",
+                "locale": "zh",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "接近最大强度（≥ 90%）",
+                "locale": "zh",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 178 bpm",
+                "locale": "zh",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "剧烈强度：142 至 177 bpm（储备的 60 至 89%）",
+            "locale": "zh",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "最大心拍数（Tanaka: 208 − 0.7 × 年齢）",
+                "locale": "ja",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "180 bpm",
+                "locale": "ja",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "予備心拍数",
+                "locale": "ja",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "ja",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "非常に軽い（< 30%）",
+                "locale": "ja",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 96 bpm",
+                "locale": "ja",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "軽い（30～39%）",
+                "locale": "ja",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "96–107 bpm",
+                "locale": "ja",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "中等度（40～59%）",
+                "locale": "ja",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "108–131 bpm",
+                "locale": "ja",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "高強度（60～89%）",
+                "locale": "ja",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "132–167 bpm",
+                "locale": "ja",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "最大に近い（≥ 90%）",
+                "locale": "ja",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 168 bpm",
+                "locale": "ja",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "高強度：132～167 bpm（予備能の60～89%）",
+            "locale": "ja",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "β遮断薬使用時、心疾患がある場合、またはアスリートでは、運動負荷試験または心肺運動負荷試験で測定した最大心拍数を優先してください。",
+            "locale": "ja",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "最大心拍数（測定値）",
+                "locale": "ja",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "190 bpm",
+                "locale": "ja",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "予備心拍数",
+                "locale": "ja",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "ja",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "非常に軽い（< 30%）",
+                "locale": "ja",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 106 bpm",
+                "locale": "ja",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "軽い（30～39%）",
+                "locale": "ja",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "106–117 bpm",
+                "locale": "ja",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "中等度（40～59%）",
+                "locale": "ja",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "118–141 bpm",
+                "locale": "ja",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "高強度（60～89%）",
+                "locale": "ja",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "142–177 bpm",
+                "locale": "ja",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "最大に近い（≥ 90%）",
+                "locale": "ja",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 178 bpm",
+                "locale": "ja",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "高強度：142～177 bpm（予備能の60～89%）",
+            "locale": "ja",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "40 anos, repouso 60: FC máx 180 (Tanaka), reserva 120; moderada 108 a 130,8; vigorosa a partir de 132",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अधिकतम हृदय गति (Tanaka: 208 − 0.7 × आयु)",
+                "locale": "hi",
+                "template": "documented-authored-49584a0d32b659ae7920"
+              },
+              "value": {
+                "text": "180 bpm",
+                "locale": "hi",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  180
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "रिज़र्व हृदय गति",
+                "locale": "hi",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "hi",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "बहुत हल्की (< 30%)",
+                "locale": "hi",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 96 bpm",
+                "locale": "hi",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  96
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "हल्की (30 से 39%)",
+                "locale": "hi",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "96–107 bpm",
+                "locale": "hi",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  96,
+                  107
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "मध्यम (40 से 59%)",
+                "locale": "hi",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "108–131 bpm",
+                "locale": "hi",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  108,
+                  131
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "तीव्र (60 से 89%)",
+                "locale": "hi",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "132–167 bpm",
+                "locale": "hi",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  132,
+                  167
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "अधिकतम के निकट (≥ 90%)",
+                "locale": "hi",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 168 bpm",
+                "locale": "hi",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  168
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "तीव्र तीव्रता: 132 से 167 bpm (रिज़र्व का 60 से 89%)",
+            "locale": "hi",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              132,
+              167
+            ]
+          },
+          "note": {
+            "text": "बीटा-ब्लॉकर, हृदय रोग, या एथलीट होने पर, व्यायाम ट्रेडमिल या कार्डियोपल्मोनरी परीक्षण में मापी गई अधिकतम हृदय गति को प्राथमिकता दें।",
+            "locale": "hi",
+            "template": "documented-authored-dca105fa460dca732e36"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "30 anos, repouso 70, FC máx medida 190: reserva 120; moderada a partir de 118",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अधिकतम हृदय गति (मापी गई)",
+                "locale": "hi",
+                "template": "documented-authored-d65ca68af57254774879"
+              },
+              "value": {
+                "text": "190 bpm",
+                "locale": "hi",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  190
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "रिज़र्व हृदय गति",
+                "locale": "hi",
+                "template": "documented-authored-dcc4a85937239972790e"
+              },
+              "value": {
+                "text": "120 bpm",
+                "locale": "hi",
+                "template": "documented-authored-e98b0e2b3e07152eeb41",
+                "sourceNumbers": [
+                  120
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "बहुत हल्की (< 30%)",
+                "locale": "hi",
+                "template": "documented-authored-7e7e19134a7e9c51e5b1"
+              },
+              "value": {
+                "text": "< 106 bpm",
+                "locale": "hi",
+                "template": "documented-authored-96db746e2bec6e090b95",
+                "sourceNumbers": [
+                  106
+                ]
+              }
+            },
+            {
+              "key": "documented-3",
+              "label": {
+                "text": "हल्की (30 से 39%)",
+                "locale": "hi",
+                "template": "documented-authored-24a45598d9c44ad2fd6b"
+              },
+              "value": {
+                "text": "106–117 bpm",
+                "locale": "hi",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  106,
+                  117
+                ]
+              }
+            },
+            {
+              "key": "documented-4",
+              "label": {
+                "text": "मध्यम (40 से 59%)",
+                "locale": "hi",
+                "template": "documented-authored-2862034e5c2440eef78e"
+              },
+              "value": {
+                "text": "118–141 bpm",
+                "locale": "hi",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  118,
+                  141
+                ]
+              }
+            },
+            {
+              "key": "documented-5",
+              "label": {
+                "text": "तीव्र (60 से 89%)",
+                "locale": "hi",
+                "template": "documented-authored-296c051f8fb5ada2f597"
+              },
+              "value": {
+                "text": "142–177 bpm",
+                "locale": "hi",
+                "template": "documented-authored-98a6cdc4a42fe9cd1aa8",
+                "sourceNumbers": [
+                  142,
+                  177
+                ]
+              }
+            },
+            {
+              "key": "documented-6",
+              "label": {
+                "text": "अधिकतम के निकट (≥ 90%)",
+                "locale": "hi",
+                "template": "documented-authored-16d40155b22a5c2dfa26"
+              },
+              "value": {
+                "text": "≥ 178 bpm",
+                "locale": "hi",
+                "template": "documented-authored-eea5b9d014f04e2ad384",
+                "sourceNumbers": [
+                  178
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "तीव्र तीव्रता: 142 से 177 bpm (रिज़र्व का 60 से 89%)",
+            "locale": "hi",
+            "template": "documented-authored-2dfe545978b350771727",
+            "sourceNumbers": [
+              142,
+              177
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ]
+  }
+}

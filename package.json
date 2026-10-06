@@ -1,12 +1,12 @@
 {
   "name": "@elucenia/tool-zonas-de-treino-karvonen",
-  "version": "0.0.0-build-final36",
+  "version": "0.2.1-output-presentation.20261005",
   "private": true,
   "type": "commonjs",
   "main": "calculator.js",
   "license": "Apache-2.0",
   "scripts": {
-    "test": "node test.cjs"
+    "test": "node test.cjs && node test-source-result-contract.cjs && node test-presentation-contract.cjs"
   },
   "engines": {
     "node": ">=18"

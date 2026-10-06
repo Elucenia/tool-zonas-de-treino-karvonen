@@ -1,6 +1,6 @@
 # Zonas de treino pela FC de reserva (Karvonen)
 
-ELUCENIA · Felipe Guedes. Current isolated per-tool source candidate.
+ELUCENIA · Felipe Guedes. Self-contained per-tool calculation and demonstration.
 
 ## Documentation in ten languages
 
@@ -19,14 +19,18 @@ The README introduction is in English; the linked usage, field, method, limits, 
 
 ## Local use and tests
 
-Serve this directory with a static HTTP server and open index.html. The demonstration calculates locally and supports the ten linked authorial interface/documentation editions. Node: require("./calculator.js").calculate(input). Run `node test.cjs` or `npm test` to replay all 3 documented source examples and 32 schema/domain rejection cases. Tests verify the package files before executing and write no files. No dependency install, remote calculation API, account or app source tree is required.
+Serve this directory with a static HTTP server and open index.html. All calculation and presentation run locally; no remote calculation API, account, dependency install, application source tree or database is required. Node: `require("./calculator.js").calculate(input)`. Run `npm test` for original reference and refusal tests, source-output preservation and presentation in all ten languages. Tests verify the immutable package and write no files.
 
-## Edition and evidence
+## Edition and current implementation
 
-Karvonen 1957 FCreserva; Tanaka 2001 FCmax 208−0,7 idade; intensidadeprescrita
+Method: Karvonen 1957 FCreserva; Tanaka 2001 FCmax 208−0,7 idade; intensidadeprescrita
 
-results.json records fresh current source and packaged browser VM parity. Browser VM is an isolated JavaScript realm, not a real browser UI/hydration journey. The actual local frozen R6 HTTP replay is recorded in [evidence/served-http-r6.json](evidence/served-http-r6.json): 3 documented source cases passed, and the served calculator source hash equals this package engine. This is not a real browser journey or Hostinger production deployment confirmation. Existing synthetic source expectations are not a newly derived clinical oracle. Independent clinical and professional language approval have not been performed.
+Implementation: `zonas-de-treino-karvonen@native-2026-10-05+0a7750d6c768`. The mathematical body, inputs, formula and original numeric references are unchanged. The existing verdict, level, note and detail rows are exposed without adding a threshold or recommendation. The browser demonstration uses the same pinned pure presentation helpers and whole-source, per-tool templates as the platform. Ten authorial interface and documentation editions are included; an unknown clinical phrase keeps explicit source-language attribution.
 
-## Source and licence scope
+## Evidence and limits
 
-Scientific sources, inputs, units, formula and population limits are recorded in tool.json and the ten documentation files. Original Apache attribution files and current MIT component notices are preserved without rewriting. CODE-COMPONENTS.md maps the licences. SOURCE-RIGHTS-REVIEW.md records the separate third-party questionnaire/instrument-expression and translation review scope. No instrument-wide permission or official endorsement is claimed.
+`source-result-contract.json` records the output-preservation comparison against the same historical method. `documented-result-examples.json` records rendering of those synthetic outputs; neither is an independent clinical oracle. `publication-provenance.json` pins current code, source identity, translations and their independent static review. Historical served proofs remain in evidence with their original revision. Separate current DEV API and representative standalone browser checks are required before publication; no production or clinical approval is inferred.
+
+## Sources and component licences
+
+Scientific sources, inputs, units, conditions and formula remain in tool.json and the ten documentation files. The nine original public legal, attribution and policy files are preserved byte for byte. CODE-COMPONENTS.md maps the preserved software licences; SOURCE-RIGHTS-REVIEW.md separates source-specific instrument wording, questionnaires, datasets and translation conditions. Software tests and software licences do not establish whole-instrument permission, official endorsement, clinical validation or professional language approval.
